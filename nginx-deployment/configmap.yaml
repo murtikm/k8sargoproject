@@ -3,8 +3,7 @@ kind: ConfigMap
 metadata:
   name: nginx-html
 data:
- exec.enabled: "true
-  index.html: |
+   index.html: |
     <!DOCTYPE html>
     <html>
       <head>
